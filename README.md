@@ -1,7 +1,7 @@
-events{}
 ## NGinx serving static files in different directories
 ![use_case_01](images/use_case_01.jpg)
 ```
+events{}
 http{
     include mime.types;
     server{
